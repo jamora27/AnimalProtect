@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AnimalProtect</string>
+    <string name="inicio">Inicio</string>
+    <string name="imagen_con_mascotas">Imagen con mascotas</string>
+    <string name="animal_protect">Animal Protect</string>
 </resources>
