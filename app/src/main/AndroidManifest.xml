@@ -14,7 +14,10 @@
         android:theme="@style/Theme.AnimalProtect"
         tools:targetApi="31">
         <activity
-            android:name=".NosotrosActivity"
+            android:name=".IniciarSesionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
