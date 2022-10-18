@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Aula 3 Equipo 16/AndroidStudioProjects/AnimalProtect/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Aula 3 Equipo 16/AndroidStudioProjects/AnimalProtect/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/Aula 3 Equipo 16/AndroidStudioProjects/AnimalProtect/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Aula 3 Equipo 16/AndroidStudioProjects/AnimalProtect/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Aula 3 Equipo 16/AndroidStudioProjects/AnimalProtect/app/src/main/res/layout/activity_nosotros.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Aula 3 Equipo 16/AndroidStudioProjects/AnimalProtect/app/src/main/res/layout/activity_registro.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Punto Vive/AndroidStudioProjects/AnimalProtect2/app/src/main/res/layout/activity_nosotros.xml" value="0.2" />
       </map>
     </option>
   </component>
