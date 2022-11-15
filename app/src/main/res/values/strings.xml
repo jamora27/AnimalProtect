@@ -3,13 +3,11 @@
     <string name="inicio">Inicio</string>
     <string name="imagen_con_mascotas">Imagen con mascotas</string>
     <string name="animal_protect">Animal Protect</string>
-    <string name="nombre">Nombre</string>
-    <string name="reg_strate">Regístrate</string>
-    <string name="contrase_a_nueva">Contraseña Nueva</string>
-    <string name="correo_electronico">Correo Electronico</string>
-    <string name="name">Name</string>
-    <string name="apellido">Apellido</string>
-    <string name="Name">Name</string>
-    <string name="siguiente">SIGUIENTE</string>
-    <string name="nameespacio">Name</string>
+    <string name="nosotros">NOSOTROS</string>
+    <string name="nuestro_proposito_es_ayudar_aquellos_animales_que_se_encuentran_en_las_calles_protejerlos_y_acojerlos_a_un_hogar_ya_que_estos_animalitos_han_tenido_que_pasar_por_cosas_muy_peligrosas_e_incluso_por_falta_de_alimentacion_los_culaes_puedan_llevarlos_a_la_muerte">Nuestro proposito es ayudar aquellos animales que se encuentran en las calles, protejerlos y acojerlos a un hogar ya que estos animalitos han tenido que pasar por cosas muy peligrosas e incluso por falta de alimentacion los culaes puedan llevarlos a la muerte</string>
+    <string name="mira_esta_frase_y_toma_conciencia">MIRA ESTA FRASE Y TOMA CONCIENCIA</string>
+    <string name="quot_a_un_tiene_en_su_cuerpo_las_marcas_que_le_dejo_la_vida_en_las_calles_sus_patas_lucen_desgastadas_y_sus_codos_estan_lesionados_al_parecer_por_apoyarse_constantemente_en_superfisies_asperas_y_duras_no_se_sabe_por_cuanto_tiempo_vivio_sin_hogar_quot">\"A un tiene en su cuerpo las marcas que le dejo la vida en las calles, sus patas lucen desgastadas y sus codos estan lesionados, al parecer por apoyarse constantemente en superfisies asperas y duras no se sabe por cuanto tiempo vivio sin hogar\"</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="todo">TODO</string>
+    <string name="imagen">TODO</string>
 </resources>
