@@ -3,4 +3,13 @@
     <string name="inicio">Inicio</string>
     <string name="imagen_con_mascotas">Imagen con mascotas</string>
     <string name="animal_protect">Animal Protect</string>
+    <string name="nombre">Nombre</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="contrase_a_nueva">Contraseña Nueva</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="name">Name</string>
+    <string name="apellido">Apellido</string>
+    <string name="Name">Name</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="nameespacio">Name</string>
 </resources>

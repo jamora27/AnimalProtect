@@ -28,10 +28,10 @@
             android:layout_width="299dp"
             android:layout_height="56dp"
             android:layout_marginEnd="8dp"
-            android:text="Regístrate"
+            android:text="@string/reg_strate"
             android:textAlignment="center"
-            android:textColor="#010101"
-            android:textSize="48dp"
+            android:textColor="#FFE082"
+            android:textSize="48sp"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
             android:id="@+id/textView9"
             android:layout_width="266dp"
             android:layout_height="47dp"
-            android:text="Apellido"
+            android:text="@string/apellido"
             android:textColor="#060606"
             android:textSize="34sp"
             android:textStyle="bold|italic"
@@ -60,7 +60,7 @@
             android:layout_width="323dp"
             android:layout_height="45dp"
             android:layout_marginStart="39dp"
-            android:text="Contraseña Nueva"
+            android:text="@string/contrase_a_nueva"
             android:textColor="#070707"
             android:textColorHint="#0B0B0B"
             android:textSize="34sp"
@@ -79,7 +79,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="196dp"
-            android:text="Nombre"
+            android:text="@string/nombre"
             android:textColor="#060505"
             android:textSize="34sp"
             android:textStyle="bold"
@@ -92,7 +92,7 @@
             android:id="@+id/textView3"
             android:layout_width="337dp"
             android:layout_height="56dp"
-            android:text="Correo Electronico"
+            android:text="@string/correo_electronico"
             android:textColor="#070606"
             android:textColorHint="#070707"
             android:textIsSelectable="false"
@@ -112,13 +112,16 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text="@string/nameespacio"
+            android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.454"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.365" />
+            app:layout_constraintVertical_bias="0.365"
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck"
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/editTextTextPersonName7"
@@ -129,13 +132,15 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Name"
+            android:text="@string/name"
             app:layout_constraintBottom_toTopOf="@+id/textView3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.129"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="1.0"
+            android:autofillHints=""
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/editTextTextPersonName8"
@@ -164,11 +169,12 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Name"
+            android:text="@string/Name"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            android:autofillHints="" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -182,7 +188,24 @@
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/mascotas_removebg_preview__1_" />
+            app:srcCompat="@drawable/mascotas_removebg_preview__1_"
+            android:contentDescription="TODO" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/siguiente"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName9"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:layout_constraintVertical_bias="1.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
