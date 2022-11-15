@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDCAB8"
+    android:background="#FBFBFB"
+    android:backgroundTint="#C4C4F4"
     android:textAlignment="center"
     tools:context=".NosotrosActivity">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="408dp"
-        android:layout_height="71dp"
+        android:layout_height="38dp"
         android:layout_marginBottom="4dp"
-        android:text="NOSOTROS"
+        android:text="@string/nosotros"
         android:textAlignment="center"
         android:textColor="@color/primaryTextColor"
         android:textColorHint="@color/primaryColor"
@@ -21,16 +22,16 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.192" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="411dp"
         android:layout_height="116dp"
-        android:text="Nuestro proposito es ayudar aquellos animales que se encuentran en las calles, protejerlos y acojerlos a un hogar ya que estos animalitos han tenido que pasar por cosas muy peligrosas e incluso por falta de alimentacion los culaes puedan llevarlos a la muerte "
+        android:text="@string/nuestro_proposito_es_ayudar_aquellos_animales_que_se_encuentran_en_las_calles_protejerlos_y_acojerlos_a_un_hogar_ya_que_estos_animalitos_han_tenido_que_pasar_por_cosas_muy_peligrosas_e_incluso_por_falta_de_alimentacion_los_culaes_puedan_llevarlos_a_la_muerte"
         android:textAlignment="center"
         android:textColor="#434040"
         android:textSize="17sp"
@@ -39,30 +40,30 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="408dp"
         android:layout_height="56dp"
-        android:text="MIRA ESTA FRASE Y TOMA CONCIENCIA "
+        android:text="@string/mira_esta_frase_y_toma_conciencia"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.356" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="411dp"
         android:layout_height="139dp"
         android:layout_marginTop="19dp"
-        android:text="&quot;A un tiene en su cuerpo las marcas que le dejo la vida en las calles, sus patas lucen desgastadas y sus codos estan lesionados, al parecer por apoyarse constantemente en superfisies asperas y duras no se sabe por cuanto tiempo vivio sin hogar&quot;"
+        android:text="@string/quot_a_un_tiene_en_su_cuerpo_las_marcas_que_le_dejo_la_vida_en_las_calles_sus_patas_lucen_desgastadas_y_sus_codos_estan_lesionados_al_parecer_por_apoyarse_constantemente_en_superfisies_asperas_y_duras_no_se_sabe_por_cuanto_tiempo_vivio_sin_hogar_quot"
         android:textAlignment="center"
         android:textColor="#454242"
         android:textSize="17sp"
@@ -71,12 +72,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="411dp"
         android:layout_height="107dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -89,11 +91,25 @@
         android:id="@+id/imageView3"
         android:layout_width="411dp"
         android:layout_height="96dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="104dp"
+        android:contentDescription="@string/imagen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/perro2" />
+        app:srcCompat="@drawable/perro2"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFFCFC"
+        android:text="@string/siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
